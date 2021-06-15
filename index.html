@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Appointment scheduler</title>
+</head>
+<body>
+  <div class = "container">
+    <form id = "formOne">
+      <div class "form-group">
+        <label for="name">Name:</label><br>
+        <input class="form-control" type="text" id = "name">
+      </div>
+      <div class "form-group">
+        <label for="appointmentDesc">Description of the appointment:</label><br>
+        <input class="form-control" type="text" id = "appointmentDesc">
+      </div>
+      <div class "form-group">
+        <label for="appointmentTime">Appointment Date:</label><br>
+        <input class="form-control" type="text" id = "appointmentTime">
+      </div>
+      <div class = "form-group">
+        <label for="startTime">Start Time:</label><br>
+        <input class="form-control" type="text" id = "startTime">
+      </div>
+      <div class = "form-group">
+        <label for="endTime">End Time:</label><br>
+        <input class="form-control" type="text" id = "endTime">
+      </div>
+
+      <button type="submit" class="btn"><h2>Book my appointment</h2></button>
+    </form>
+    <p>
+      Thank you, <span class="name"></span> for booking an appointment concerning <span class="appointmentDesc"></span>. This appointment will be held on <span class="appointmentTime"></span> between <span class="startTime"></span> and <span class="endTime"> 
+    </p>
+  </div>
+
+</body>
+</html>
